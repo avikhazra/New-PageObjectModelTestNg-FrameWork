@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Execute All">
+    <suite-files>
+    
+    	<suite-file path="login.xml" />
+       <!--  <suite-file path="testng.xml" />  -->
+        <suite-file path="logout.xml" />
+        	 
+      	
+    </suite-files>
+</suite>

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BrokenImageTest Suite">
+	<parameter name="loginProp" value="LoginLogout.properties" />
+	<parameter name="browser" value="IE" />
+	<parameter name="controller" value= "BrokenImages" />
+	
+	<test name="Login">
+	<classes>
+	
+		<class name="com.portal.automation.pages.test.TestNGTests.BrokenImageTest"></class>
+		
+	</classes>
+</test>
+</suite>
+

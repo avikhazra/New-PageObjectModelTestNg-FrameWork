@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="logout Suite">
+	<parameter name="loginProp" value="Login.properties" />
+	<parameter name="browser" value="IE" />
+	<parameter name="controller" value= "ManualLogout, AutomaticLogout" />
+	
+	<test name="Logout">
+	<classes>
+	
+	<class name="com.portal.automation.pages.test.TestNGTests.TestLogout"></class>
+	
+	</classes>
+</test>
+</suite>
+
